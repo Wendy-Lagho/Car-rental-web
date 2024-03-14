@@ -80,3 +80,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     exit();
 }
 ?>
+// Path: db_connect.php
+// <?php
+// // Database connection parameters
+// $servername = "localhost";
+// $username = "root";
+// $password = "";
+// $dbname = "booking_system";
+//
