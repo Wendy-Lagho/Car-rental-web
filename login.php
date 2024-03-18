@@ -14,4 +14,4 @@
       <button type="submit">Login</button>
     </form>
   </body>
-  <!--the booking.php has errors-->
+</html>
