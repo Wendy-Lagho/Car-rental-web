@@ -8,13 +8,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $pickupDate = $_POST['pickup_date'];
     $pickupTime = $_POST['pickup_time'];
 
-    // Validate the input data
-    // ...
 
-    // Process the booking
-    // ...
-
-    // Display a success message to the user
-    echo "Booking successful!";
 }
 ?>
