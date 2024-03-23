@@ -15,4 +15,3 @@
     </form>
   </body>
 </html>
-// Path: login_process.php
