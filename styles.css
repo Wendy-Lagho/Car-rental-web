@@ -44,7 +44,7 @@ header {
 }
 .logo img {
   width: 70px;
-  /*height: auto;*/
+  /* height: auto; */
 }
 .navbar {
   display: flex;
@@ -70,7 +70,6 @@ header {
 }
 .navbar a:hover::after {
   width: 100%;
-  transition: 0.5s;
 }
 #menu-icon {
   font-size: 24px;
@@ -83,12 +82,12 @@ header {
   color: var(--text-color);
   font-weight: 500;
 }
-.header-btn .login {
+.header-btn .log-in {
   background: #474fa0;
   color: #fff;
   border-radius: 3.5rem;
 }
-.header-btn .login:hover {
+.header-btn .log-in:hover {
   background: var(--main-color);
 }
 .home {
@@ -192,7 +191,7 @@ padding: 20px;
   font-weight: 500;
   margin: 1.4rem 0 0.5rem;
 }
-.ride-container .box .bx:hover, .ride-container .box .bxs-calender-star {
+.ride-container .box .bx:hover, .ride-container .box .bx-calender-star {
   background: var(--gradient);
   color: #fff;
 }
