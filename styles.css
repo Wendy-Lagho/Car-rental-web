@@ -195,46 +195,46 @@ padding: 20px;
   background: var(--gradient);
   color: #fff;
 }
-.service-container {
+.services-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, auto));
   gap: 1rem;
   margin-top: 2rem;
 }
-.service-container .box {
+.services-container .box {
   padding: 10px;
   border-radius: 1rem;
   box-shadow: 1px 4px 41px rgba(0, 0, 0, 0.1);
 }
-.service-container .box img {
+.services-container .box img {
   width: 100%;
   height: 200px;
   border-radius: 1rem;
 }
-.service-container .box img img{
+.services-container .box img img{
   width: 100%;
   height: 100%;
   border-radius: 1rem;
   object-fit: cover;
   object-position: center;
 }
-.service-container .box p {
+.services-container .box p {
   padding: 0 10px;
   border: 1px solid var(--text-color);
   width: 58px;
   border-radius: 0.5rem;
   margin: 1rem 0 1rem;
 }
-.service-container .box h3 {
+.services-container .box h3 {
   font-weight: 500;
 }
-.service-container .box h2 {
+.services-container .box h2 {
   font-size: 1.1rem;
   font-weight: 600;
   color: var(--main-color);
   margin: 0.2rem 0 0.5rem;
 }
-.service-container .box h2 span {
+.services-container .box h2 span {
   font-size: 0.8rem;
   font-weight: 500;
   color: var(--text-color);
@@ -247,3 +247,4 @@ padding: 20px;
   padding: 10px;
   border-radius: 0.5rem;
 }
+.services-container .box
