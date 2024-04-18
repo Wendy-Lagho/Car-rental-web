@@ -247,4 +247,6 @@ padding: 20px;
   padding: 10px;
   border-radius: 0.5rem;
 }
-.services-container .box
+.services-container .box .btn:hover{
+  background: var(--main-color);
+}
