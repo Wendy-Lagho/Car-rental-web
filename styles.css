@@ -44,7 +44,6 @@ header {
 }
 .logo img {
   width: 70px;
-  /* height: auto; */
 }
 .navbar {
   display: flex;
@@ -82,19 +81,19 @@ header {
   color: var(--text-color);
   font-weight: 500;
 }
-.header-btn .log-in {
+.header-btn .sign-in {
   background: #474fa0;
   color: #fff;
   border-radius: 3.5rem;
 }
-.header-btn .log-in:hover {
+.header-btn .sign-in:hover {
   background: var(--main-color);
 }
 .home {
   width: 100%;
   min-height: 100vh;
   position: relative;
-  background: url(img/Car\ Website.png);
+  background: url(img/Car\ Website\ –\ 1@2x.png);
   background-repeat: no-repeat;
   background-position: center right;
   background-size: cover;
@@ -120,7 +119,7 @@ header {
   margin-right: 1rem;
   cursor: pointer;
 }
-.form-container from{
+.form-container form{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -150,7 +149,10 @@ header {
 }
 .form-container form .btn{
   flex: 1 1 7rem;
-  padding: 10px;
+  padding: 10px 34px;
+  border: none;
+  border-radius: 0.5rem;
+  background: #474fa0;
   color: #fff;
   font-size: 1rem;
   font-weight: 500;
@@ -191,13 +193,14 @@ padding: 20px;
   font-weight: 500;
   margin: 1.4rem 0 0.5rem;
 }
-.ride-container .box .bx:hover, .ride-container .box .bx-calender-star {
+.ride-container .box .bx:hover,
+ .ride-container .box .bx-calender-check {
   background: var(--gradient);
   color: #fff;
 }
 .services-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
   gap: 1rem;
   margin-top: 2rem;
 }
@@ -206,12 +209,11 @@ padding: 20px;
   border-radius: 1rem;
   box-shadow: 1px 4px 41px rgba(0, 0, 0, 0.1);
 }
-.services-container .box img {
+.services-container .box .box-img {
   width: 100%;
   height: 200px;
-  border-radius: 1rem;
 }
-.services-container .box img img{
+.services-container .box .box-img img{
   width: 100%;
   height: 100%;
   border-radius: 1rem;
@@ -277,4 +279,82 @@ padding: 20px;
 }
 .about-text .btn:hover {
   background: var(--main-color);
+}
+.reviews-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.rev-img{
+  width: 70px;
+  height: 70px;
+}
+.rev-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  border: 2px solid var(--second-color);
+}
+.reviews-container .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 1px 4px 41px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+}
+.reviews-container .box h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0.5rem 0 0.5rem;
+}
+.reviews-container .box p {
+  font-style: italic;
+}
+.reviews-container .box .stars .bx {
+  color: var(--main-color);
+}
+.newsletter{
+  background: linear-gradient(to top right, #fe5b3d, #ffac38);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.newsletter h2 {
+  color: #fff;
+  font-size: 1.8rem;
+}
+.newsletter .box {
+  margin-top: 1rem;
+  background: #fff;
+  border-radius: 0.5rem;
+  padding: 4px 8px;
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+}
+.newsletter .box input {
+  border: none;
+outline: none;
+}
+.newsletter .box .btn {
+  background: #474fa0;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 0.5rem;
+}
+.copyright{
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social a{
+  color: #444;
+  padding: 10px;
+  font-size: 21px;
 }
