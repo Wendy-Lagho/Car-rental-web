@@ -1,6 +1,6 @@
 <?php
 $host = "localhost";
-$dbname = "booking";
+$dbname = "car_rental";
 $username = "root";
 $password = "";
 
