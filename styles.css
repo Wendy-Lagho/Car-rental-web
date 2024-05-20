@@ -10,7 +10,7 @@
   text-decoration: none;
   font-family: "Poppins", sans-serif;
 }
-:root{
+:root {
   --main-color: #fe5b31;
   --second-color: #ffac38;
   --text-color: #444;
@@ -56,7 +56,7 @@ header {
   padding: 10px 20px;
   color: var(--text-color);
   font-weight: 500; 
-} 
+}
 .navbar a::after {
   content: '';
   width: 0;
@@ -109,7 +109,7 @@ header {
   color: var(--main-color);
 }
 .text p {
-  margin: 00.5rem 0 1.5rem;
+  margin: 0 0.5rem 1.5rem;
 }
 .app-stores {
   display: flex;
@@ -119,7 +119,7 @@ header {
   margin-right: 1rem;
   cursor: pointer;
 }
-.form-container form{
+.form-container form {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -136,7 +136,7 @@ header {
   display: flex;
   flex-direction: column;
 }
-.input-box span{
+.input-box span {
   font-weight: 500;
 }
 .input-box input {
@@ -147,7 +147,7 @@ header {
   border-radius: 0.5rem;
   font-size: 1rem;
 }
-.form-container form .btn{
+.form-container form .btn {
   flex: 1 1 7rem;
   padding: 10px 34px;
   border: none;
@@ -178,8 +178,8 @@ header {
   margin-top: 2rem;
 }
 .ride-container .box {
-text-align: center;
-padding: 20px;
+  text-align: center;
+  padding: 20px;
 }
 .ride-container .box .bx {
   font-size: 34px;
@@ -194,7 +194,7 @@ padding: 20px;
   margin: 1.4rem 0 0.5rem;
 }
 .ride-container .box .bx:hover,
- .ride-container .box .bx-calender-check {
+.ride-container .box .bx-calender-check {
   background: var(--gradient);
   color: #fff;
 }
@@ -213,7 +213,7 @@ padding: 20px;
   width: 100%;
   height: 200px;
 }
-.services-container .box .box-img img{
+.services-container .box .box-img img {
   width: 100%;
   height: 100%;
   border-radius: 1rem;
@@ -249,10 +249,10 @@ padding: 20px;
   padding: 10px;
   border-radius: 0.5rem;
 }
-.services-container .box .btn:hover{
+.services-container .box .btn:hover {
   background: var(--main-color);
 }
-.about-container{
+.about-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin-top: 2rem;
@@ -263,7 +263,7 @@ padding: 20px;
 .about-img img {
   width: 100%;
 }
-.about-text span{
+.about-text span {
   font-weight: 500;
   color: var(--main-color);
   text-transform: uppercase;
@@ -280,13 +280,13 @@ padding: 20px;
 .about-text .btn:hover {
   background: var(--main-color);
 }
-.reviews-container{
+.reviews-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, auto));
   gap: 1rem;
   margin-top: 2rem;
 }
-.rev-img{
+.rev-img {
   width: 70px;
   height: 70px;
 }
@@ -318,7 +318,7 @@ padding: 20px;
 .reviews-container .box .stars .bx {
   color: var(--main-color);
 }
-.newsletter{
+.newsletter {
   background: linear-gradient(to top right, #fe5b3d, #ffac38);
   display: flex;
   flex-direction: column;
@@ -339,7 +339,7 @@ padding: 20px;
 }
 .newsletter .box input {
   border: none;
-outline: none;
+  outline: none;
 }
 .newsletter .box .btn {
   background: #474fa0;
@@ -347,14 +347,85 @@ outline: none;
   padding: 8px 20px;
   border-radius: 0.5rem;
 }
-.copyright{
-  padding: 20px;
+
+/* Footer Section 
+footer {
+  background: #2c3e50;
+  color: #fff;
+  padding: 40px 100px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-center {
+  flex: 1 1 300px;
+}
+
+.footer-center h3 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.footer-center p,
+.footer-center a {
+  color: #bdc3c7;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.footer-center a {
+  display: block;
+  text-decoration: none;
+}
+
+.footer-center a:hover {
+  color: var(--main-color);
+}
+
+.footer-center i {
+  font-size: 1.2rem;
+  color: #bdc3c7;
+  margin-right: 10px;
+}
+
+.footer-center i:hover {
+  color: var(--main-color);
+}
+*/
+
+/* Copyright Section */
+.copyright {
+  background: #1a252f;
+  color: #bdc3c7;
+  padding: 20px 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
-.social a{
-  color: #444;
-  padding: 10px;
-  font-size: 21px;
+.footer {
+  width: 100%;
+  margin-left: 0;
+}
+
+.copyright p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.social a {
+  color: #bdc3c7;
+  font-size: 1.5rem;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.social a:hover {
+  color: var(--main-color);
 }
