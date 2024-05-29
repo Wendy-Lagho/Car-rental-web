@@ -58,7 +58,6 @@ input[type="email"] {
     padding: 10px;
     margin: auto;
     display: block;
-    
     border: none;
     border-radius: 5px;
     background-color: #ffffff;
@@ -66,8 +65,9 @@ input[type="email"] {
     box-sizing: border-box;
     font-family: "Telugu MN";
     outline: none;
+    margin-bottom: 10px;
 }
-
+/*
 button{
     width: 100%;
     padding: 12px;
@@ -78,6 +78,7 @@ button{
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+*/
 button:hover {
     background-color: var(--second-color);
     color: #fff;
