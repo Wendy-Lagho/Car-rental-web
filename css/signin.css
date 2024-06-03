@@ -1,3 +1,4 @@
+
 .container {
   max-width: 600px;
   margin: 0 auto;
@@ -29,8 +30,8 @@ input[type="submit"]:hover {
     background-color: var(--second-color);
 }
 
-/* Path: css/signup.css 
-/* google fonts 
+/* Path: css/signup.css */
+/* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 * {
   margin: 0;
@@ -49,7 +50,7 @@ input[type="submit"]:hover {
   --text-color: #444;
   --gradient: linear-gradient(#fe5b31, #ffac38);
 }
-/* custom scroll bar 
+/* custom scroll bar */
 html::-webkit-scrollbar {
   width: 0.5rem;
 }
@@ -115,4 +116,3 @@ button:hover {
     background-color: var(--second-color);
     color: #fff;
 }
-*/
