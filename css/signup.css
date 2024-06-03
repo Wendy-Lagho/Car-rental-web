@@ -67,7 +67,7 @@ input[type="email"] {
     outline: none;
     margin-bottom: 10px;
 }
-
+/*
 button{
     width: 100%;
     padding: 12px;
@@ -83,3 +83,4 @@ button:hover {
     background-color: var(--second-color);
     color: #fff;
 }
+*/
